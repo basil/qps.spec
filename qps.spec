@@ -15,6 +15,7 @@ BuildRequires:  cmake(KF6WindowSystem)
 BuildRequires:  cmake(Qt6LinguistTools)
 BuildRequires:  cmake(Qt6Widgets)
 BuildRequires:  pkgconfig(lxqt)
+BuildRequires:  perl
 
 Requires:       hicolor-icon-theme
 
