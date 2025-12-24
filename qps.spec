@@ -3,7 +3,7 @@ Summary:        Qt process viewer and manager
 Version:        2.12.0
 Release:        1%{?dist}
 
-License:        GPL-2.0
+License:        GPL-2.0-or-later
 URL:            https://lxqt-project.org/
 Source0:        https://github.com/lxqt/%{name}/releases/download/%{version}/%{name}-%{version}.tar.xz
 Source1:        https://github.com/lxqt/%{name}/releases/download/%{version}/%{name}-%{version}.tar.xz.asc
