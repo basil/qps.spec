@@ -14,6 +14,7 @@ BuildRequires:  gcc-c++
 BuildRequires:  cmake(KF6WindowSystem)
 BuildRequires:  cmake(Qt6LinguistTools)
 BuildRequires:  cmake(Qt6Widgets)
+BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(lxqt)
 BuildRequires:  perl
 
