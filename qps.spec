@@ -11,6 +11,7 @@ Source1:        https://github.com/lxqt/%{name}/releases/download/%{version}/%{n
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc-c++
+BuildRequires:  libappstream-glib
 BuildRequires:  cmake(KF6WindowSystem)
 BuildRequires:  cmake(Qt6LinguistTools)
 BuildRequires:  cmake(Qt6Widgets)
@@ -61,6 +62,7 @@ Qps runs on Linux and Solaris.
 
 %check
 desktop-file-validate %{buildroot}%{_datadir}/applications/%{name}.desktop
+appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/org.lxqt.Qps.appdata.xml
 
 %files -f %{name}.lang
 %license COPYING
