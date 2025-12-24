@@ -73,5 +73,5 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/%{name}.desktop
 %{_mandir}/man1/%{name}.1.gz
 
 %changelog
-* Tue Dec 23 2025 Basil Crow <me@basilcrow.com> - 1.3.2-1
+* Tue Dec 23 2025 Basil Crow <me@basilcrow.com> - 2.12.0-1
 - Initial COPR packaging
