@@ -77,4 +77,4 @@ appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/org.lxqt.Qps.a
 
 %changelog
 * Tue Dec 23 2025 Basil Crow <me@basilcrow.com> - 2.12.0-1
-- Initial COPR packaging
+- Initial packaging
