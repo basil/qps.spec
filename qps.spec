@@ -70,7 +70,7 @@ appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/org.lxqt.Qps.a
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/48x48/apps/%{name}.png
-%{_datadir}/metainfo/org.lxqt.Qps.appdata.xml
+%{_metainfodir}/org.lxqt.Qps.appdata.xml
 %dir %{_datadir}/%{name}
 %dir %{_datadir}/%{name}/translations
 %{_mandir}/man1/%{name}.1.gz
