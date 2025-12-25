@@ -22,32 +22,28 @@ BuildRequires:  perl
 Requires:       hicolor-icon-theme
 
 %description
-Qps is a visual process manager for X11, a graphical equivalent of top or ps.
-It displays processes in a window and lets you sort and manipulate them.
+Qps is a visual process manager, an X11 version of "top" or "ps" that
+displays processes in a window and lets you sort and manipulate them.
 
 Qps can:
-
-* Change the nice value of a process.
-* Alter a process's scheduling policy and soft real-time priority.
-* Display TCP and UDP sockets used by a process and the names of connected
-  hosts (Linux only).
-* Display a process's memory mappings (which files and shared libraries are
-  loaded and where).
-* Display a process's open files and the state of its Unix domain sockets.
-* Kill processes or send any other signal to selected processes.
-* Display the load average as a graph and use it as the icon when the window is
-  iconified.
-* Show current CPU, memory, and swap usage as graphs or numbers.
-* Sort the process table by any attribute (size, CPU usage, owner, etc.).
-* On SMP systems running Linux 2.1 or later (or on Solaris), display
-  per-processor CPU usage and indicate which CPU each process is running on.
-* Display the environment variables of any process.
-* Show the process table as a tree, displaying parent–child relationships.
-* Execute user-defined commands on selected processes.
-* Display MOSIX-specific fields and migrate processes to other nodes in a
-  cluster.
-
-Qps runs on Linux and Solaris.
+  o  Change nice value of a process.
+  o  Alter the scheduling policy and soft realtime priority of a process.
+  o  Display the TCP/UDP sockets used by a process, and names of the
+     connected hosts (Linux only).
+  o  Display the memory mappings of the process (which files and shared
+     libraries are loaded   where).
+  o  Display the open files of a process, and the state of unix domain sockets.
+  o  Kill or send any other signal to selected processes.
+  o  Display the load average as a graph, and use this as its icon when
+     iconified.
+  o  Show (as graph or numbers) current CPU, memory and swap usage.
+  o  Sort the process table on any attribute (size, cpu usage, owner etc).
+  o  On SMP systems running Linux 2.6 or later (or Solaris), display cpu usage
+     for each processor, and which CPU a process is running on.
+  o  Display the environment variables of any process.
+  o  Show the process table in tree form, showing the parent-child
+     relationship.
+  o  Execute user-defined commands on selected processes.
 
 %prep
 %autosetup
